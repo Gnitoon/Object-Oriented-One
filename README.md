@@ -7,4 +7,27 @@ Object Oriented One (OOO) or O³ (may also be known as ozone)
 
 (author unknown, if don't want this img here, contact me)
 
+
+## Usage
+
+```js
+
+// instance
+const oneObj = new One();
+
+// get the value
+const one = oneObj.getOne();
+
+// use it!
+i = one + i;
+
+// OR use directly
+i = new One().getOne() + i;
+
+// extra: setOne(<value>) (value must be 1)
+oneObj.setOne(1)
+
+```
+
+
 ## LICENSE: MIT
