@@ -37,4 +37,5 @@ class One{
     }
 }
 
-i = new One().getOne() + i
+// usage
+// i = new One().getOne() + i
