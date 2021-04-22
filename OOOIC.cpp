@@ -43,6 +43,5 @@ int main(){
 
     // i.setOne(2);
     
-
     return i.getOne() + 1;
 };
