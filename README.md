@@ -9,7 +9,7 @@ Object Oriented One (OOO) or O³ (may also be known as ozone)
 
 
 ## Usage
-
+### Js
 ```js
 
 // instance
@@ -25,7 +25,51 @@ i = one + i;
 i = new One().getOne() + i;
 
 // extra: setOne(<value>) (value must be 1)
+oneObj.setOne(1);
+
+```
+
+### Python
+```py
+
+// instance
+oneObj = One()
+
+// get the value
+one = oneObj.getOne()
+
+// use it!
+i = one + i
+
+// OR use directly
+i = One().getOne() + i
+
+// extra: setOne(<value>) (value must be 1)
 oneObj.setOne(1)
+
+```
+
+### C++
+```cpp
+
+int main(){
+	  // instance
+	  One oneObj = One();
+
+	  // get the value
+	  int one = oneObj.getOne();
+
+	  // use it!
+	  int i = one + i;
+
+	  // OR use directly
+	  int i = One().getOne() + i;
+
+	  // extra: setOne(<value>) (value must be 1)
+	  oneObj.setOne(1);
+
+	  return oneObj.getOne();
+}
 
 ```
 
