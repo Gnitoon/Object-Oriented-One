@@ -11,6 +11,7 @@ Object Oriented One (OOO) or O³ (may also be known as ozone)
 ## Usage
 ### Js
 ```js
+// JavaScript
 
 // instance
 const oneObj = new One();
@@ -31,26 +32,29 @@ oneObj.setOne(1);
 
 ### Python
 ```py
+# Python
 
-// instance
+# instance
 oneObj = One()
 
-// get the value
+# get the value
 one = oneObj.getOne()
 
-// use it!
+# use it!
 i = one + i
 
-// OR use directly
+# OR use directly
 i = One().getOne() + i
 
-// extra: setOne(<value>) (value must be 1)
+# extra: setOne(<value>) (value must be 1)
 oneObj.setOne(1)
 
 ```
 
 ### C++
 ```cpp
+
+// C++
 
 int main(){
 	  // instance
